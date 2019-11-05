@@ -18,11 +18,11 @@ $enable-print-styles:       true;
 // Colors
 
 $theme-colors: (
-  primary: #02B875,
-  secondary: #D9534F,
+  primary: #00B900,
+  secondary: #CA263E,
   light: #f3f3f3,
   dark: #151515,
-  info: #4582EC,
+  info: #00AEEF,
   success: #28a745,
   warning: #ffc107,
   danger: #dc3545
@@ -33,7 +33,7 @@ $body-color: #333;
 
 
 $body-color-inverse: invert($body-color) !default;
-$link-color: #02B875;
+$link-color: #00B900;
 
 // Fonts
 $font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";

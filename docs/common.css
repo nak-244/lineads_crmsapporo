@@ -1,3 +1,6 @@
+/* googleフォント */
+@import url('https://fonts.googleapis.com/css?family=Kosugi+Maru&display=swap&subset=japanese');
+
 /* パソコンで見たときは"pc"のclassがついた画像が表示される */
 .pc {
   display: block !important;

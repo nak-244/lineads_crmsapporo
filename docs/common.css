@@ -1,21 +1,3 @@
-.spacer10 {
-  clear: both;
-  width: auto;
-  height: 10px;
-}
-
-.spacer20 {
-  clear: both;
-  width: auto;
-  height: 20px;
-}
-
-.spacer30 {
-  clear: both;
-  width: auto;
-  height: 30px;
-}
-
 /* パソコンで見たときは"pc"のclassがついた画像が表示される */
 .pc {
   display: block !important;
@@ -122,54 +104,6 @@
     border-top: none;
   }
 }
-
-/*
- * フロー　登録までの流れ
- */
- .flowchart{
-   margin-left: .5em;
-   border-left: 2px dashed;
- }
- .flowchart h2{
-   position: relative;
-   margin-left: 2em;
-   margin-bottom: 0;
- }
- .flowchart p{
-   margin-top: .3em;
-   margin-left: 3em;
- }
- .flowchart h2:before{
-   position: absolute;
-   left: -2.5em;
-   top: .2em;
-   width: 1em;
-   height: 1em;
-   border-radius: .5em;
-   background: #fff;
- }
- .flowchart h2:after{
-   content: "";
-   border-bottom: 1px solid;
-   width: 1em;
-   background: #000;
-   position: absolute;
-   top: .8em;
-   left: -1.5em;
- }
-
- /* body:before{
- content:"";
- display:block;
- position:fixed;
- top:0;
- left:0;
- z-index:-1;
- width:100%;
- height:100vh;
- background:url(assets/img/sample.jpg) center no-repeat;
- background-size:cover;
- } */
 
  .no-gutter > [class*='col-'] {
      padding-right:0;

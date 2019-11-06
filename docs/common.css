@@ -54,6 +54,7 @@
 }
 
 @media only screen and (max-width: 800px) {
+
   .col-head-type1 tr,
   .col-head-type1 th,
   .col-head-type1 td {
@@ -70,7 +71,6 @@
     border-top: none;
   }
 }
-
 
 /* テーブルのレスポンシブ 会社概要 */
 .col-head-type2 {
@@ -91,6 +91,7 @@
 }
 
 @media only screen and (max-width: 800px) {
+
   .col-head-type2 tr,
   .col-head-type2 th,
   .col-head-type2 td {
@@ -108,12 +109,34 @@
   }
 }
 
- .no-gutter > [class*='col-'] {
-     padding-right:0;
-     padding-left:0;
- }
+.no-gutter>[class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
 
- .tel-number a {
-     color:#ffffff;
-     text-decoration:none;
-     }
+.tel-number a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.circle {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #06C405;
+}
+
+.circle span {
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 100px;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 1.2rem;
+}
